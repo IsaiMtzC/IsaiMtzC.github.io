@@ -1,0 +1,138 @@
+body{
+  background: url("../pictures/bckgnd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.list-group-item{
+  margin-bottom: 5px;
+  background: rgba(0, 0, 0, .7);
+  color: white;
+  border: none;
+}
+
+.list-group-item:first-of-type,
+.list-group-item:last-of-type{
+  border-radius: 0px;
+}
+
+.list-group-item.active{
+  background: rgba(99, 99, 99, 0.7);
+}
+
+.list-group-item:hover{
+  background: rgba(99, 99, 99,.7);
+  color:white;
+  cursor: pointer;
+}
+
+.card{
+  background: rgba(255,255,255,.5);
+  max-height: calc(100vh - 40px);
+  overflow-y: scroll;
+  color:black;
+}
+
+.card img{
+width: 60%;
+margin: 50px auto 20px auto;
+border-radius: 50%;
+}
+
+p{
+  text-align: center;
+}
+
+.card .card-title{
+  color: #333;
+  text-align: center;
+}
+
+.card .card-title span{
+  color: rgba(255, 29, 29, 0.7);
+}
+
+.card h4{
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+}
+
+.card .btn-primary {
+  background-color: rgba(10, 206, 206, 1);
+  border: none;
+}
+
+.social-network-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-network-wrapper .social-icon{
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.social-network-wrapper .social-icon.facebook{
+  background-image:url("../pictures/fb-icon.png");
+}
+
+.social-network-wrapper .social-icon.twitter{
+  background-image:url("../pictures/tt-icon.png");
+}
+
+.social-network-wrapper .social-icon.twitch{
+  background-image:url("../pictures/twitch-icon.png");
+}
+
+.social-network-wrapper .social-icon.instagram{
+  background-image:url("../pictures/ig-icon.png");
+}
+
+.social-network-wrapper .social-icon.youtube{
+  background-image:url("../pictures/yt-icon.png");
+}
+
+.social-network-wrapper .social-icon:not(:first-of-type){
+  margin-left: 5px;
+}
+.resume-column{
+    background: rgba(99,99,99,.7);
+    color: white;
+    max-height: calc(100vh - 40px);
+    overflow-y: scroll;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background:darkslategrey; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.section-header.education img{
+    width:25px;
+    height:25px;
+    size:cover;
+}
+
+.content-text{
+  padding: 12px;
+}
